@@ -1,7 +1,8 @@
 ﻿public class Exercicio3
 {
-    public bool EhPar(int numero)
+    public void EhPar(int numero)
     {
-        return numero % 2 == 0;
+        if (numero % 2 == 0) Console.WriteLine("É par!");
+        else Console.WriteLine("É ímpar!");
     }
 }
